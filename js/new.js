@@ -243,7 +243,7 @@ document.getElementById("sedrFUNBABY").addEventListener("click", function () {
   document.getElementById("AyonBABY").style.display = "none";
   document.getElementById("anefBABY").style.display = "none";
  // document.getElementById("zera3BABY").style.display = "none";
-  document.getElementById("batnSET").style.display = "none";
+  document.getElementById("batnBABY").style.display = "none";
   //document.getElementById("reglBABY").style.display = "none";
 
 })
