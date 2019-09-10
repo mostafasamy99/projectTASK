@@ -51,8 +51,8 @@ body {
 }
 
 .webteb {
-    width: 100px;
-    padding-top: 30px;
+    width: 60px;
+    padding-top: 11px;
 }
 
 
@@ -616,7 +616,9 @@ text-align:right;
 }
 
 
-
+.magdyJacop a{
+    text-decoration-line: none;
+}
 
 
 
