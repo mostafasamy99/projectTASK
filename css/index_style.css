@@ -77,11 +77,13 @@ body {
     color: #16c1f5;
     padding-left: 5px;
     transition: all 0.7s;
+    
 }
 
 .navbar-nav li {
     padding: 12px 15px;
     transition: all 0.4s;
+    
 }
 
 .navbar-nav li:hover {
@@ -102,13 +104,21 @@ body {
 
 .navbar {
     padding: 0rem;
+    
 }
-
+@media (max-width: 767px) {
+    ul.navbar-nav {
+        transform: rotate(180deg);
+    }
+    ul.navbar-nav > li {
+        transform: rotate(-180deg);
+    }
+}
 
 /*Home*/
 
 .home {
-    height: 570px;
+/*    height: 570px;*/
 
 }
 
